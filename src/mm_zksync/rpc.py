@@ -15,8 +15,8 @@ L2_ETH_TOKEN_ADDRESS = Web3.to_checksum_address("0x00000000000000000000000000000
 
 
 class BridgeContracts(BaseModel):
-    l1_erc20_Default_bridge: str = Field(..., alias="l1Erc20DefaultBridge")
-    l2_erc20_Default_bridge: str = Field(..., alias="l2Erc20DefaultBridge")
+    l1_erc20_default_bridge: str = Field(..., alias="l1Erc20DefaultBridge")
+    l2_erc20_default_bridge: str = Field(..., alias="l2Erc20DefaultBridge")
 
 
 def zks_get_bridge_contracts(
